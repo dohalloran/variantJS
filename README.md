@@ -1,4 +1,4 @@
-# `jVariant v.0.0.2`
+# `jVariant v.0.0.1`
 
 [![GitHub license](https://img.shields.io/badge/license-GPL_3.0-orange.svg)](https://raw.githubusercontent.com/dohalloran/C.elegans-Variant-Viewer/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/dohalloran/jVariant.svg)](https://github.com/dohalloran/jVariant/issues)
