@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jVariant</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="image/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+		<link href="css/featureView.css" rel="stylesheet" type="text/css">
+		<script src="js/featureView.js">
+		</script>
+		<script src="js/jvariant.js">
+		</script>
+	</head>
+	<body>
+		<div align="center">
+			<div class="row" style="margin-top: 30px;border-bottom:1px solid #E7EAEC;">
+				<div class="col-md-25 col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h1 class="text-center"><b>jVariant: VCF file browser</b></h1>
+							<select id="selectPanel">
+								<option value="none">select a species</option>
+								<option value="worm">Caenorhabditis elegans</option>
+								<option value="fly">Drosophila melanogaster</option>
+							</select>
+							<p>
+								<h4>Load VCF file:</h4>
+								<input accept='text/vcf' id="myFile" onchange='openFile(event)' type="file">
+							</p>
+							<button class="btn btn-default" id="type1" onclick="executeCode()" type="submit">Submit</button>
+							<button class="btn btn-default" id="type2" onclick="window.location.reload()" type="reset">Reset</button>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="div1"></div>
+		<div id="div2"></div>
+		<div id="div3"></div>
+		<div id="div4"></div>
+		<div id="div5"></div>
+		<div id="div6"></div>
+	</body>
+</html>
